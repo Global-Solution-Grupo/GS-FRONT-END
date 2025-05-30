@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'bangers';
+    src: url(../assets/Bangers-Regular.ttf) format('truetype');
+  }
+
+@font-face {
+    font-family: 'oxygen';
+    src: url(../assets/Oxygen-Regular.ttf) format('truetype');
+  }
+  
+
+/*RESET BÁSICO*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'oxygen', sans-serif;
+
+}
+
+/*VARIÁVEIS*/
+
+:root{
+    --color-font1:#fff;
+    --color-font2:#333;
+    --color-font3:aqua;
+    --color-font4: rgb(4,25,32);
+    --gradient:linear-gradient(to top, rgba(0,0,0,0.6),rgba(0,0,0,0.3));
+    --font-size:4rem;
+}
+html{
+    /*CÁLCULO PARA CONVERTER O TAMANHO DA FONTE EM 10PX */
+    font-size: 62.5%; 
+    /*EFEITO DE SUAVIDADE NA PÁGINA*/
+    scroll-behavior: smooth;
+}
+
+body{
+    background: transparent;
+}
+
+nav ul{
+    list-style: none;
+}
+a{
+    text-decoration: none; /*RETIRA A LINHA PRESENTE EM BAIXO*/
+    color: var(--color-font1);
+    font-weight: 900;
+    transition: color .3s;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+a:hover{
+    color: var(--color-font3);
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem;
+    background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/home-semaforo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*FAZ A IMAGEM ENCAIXAR NO FUNDO DO SITE*/
+    color:var(--color-font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+header{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    font-size: var(--font-size);
+    position: relative;
+    font-family: 'bangers', sans-serif;
+}
+header h1 span{
+    font-size: var(--font-size);
+    position: relative;
+    font-family: 'bangers', sans-serif;
+}
+.header-menu{
+    display: flex;
+    gap:20px;
+
+}
+span{
+    color: var(--color-font3);
+}
+/*MENU HAMBURGUER*/
+.hamburguer{
+cursor: pointer;
+position: relative;
+z-index: 2;
+display: none;
+}
+.barra{
+    display: block;
+    width: 3rem;
+    height: .3rem;
+    background: var(--color-font1);
+    margin: .5rem auto;
+    border-radius: 5px;
+    transition: .5s;
+}
+#titulo{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    width: 1205px;
+}
+/*RESPONSIVIDADE*/
+
+@media(width <=1024px){
+
+    .header-menu{
+        width: 100%;
+        height: 100vh;
+        background: var(--gradient);
+        position: absolute;
+        z-index: 1;
+        top:0;
+        left: -100%;
+        gap:4rem;
+        text-align: center;
+        flex-direction: column;
+        justify-content: center;
+        transition: .5s;
+    }
+    #titulo{
+        font-size: 2rem;
+    }
+    .active{
+        left:0;
+    }
+    .hamburguer{
+        display: block;
+    }
+
+    .hamburguer.active .barra:first-child{
+        transform: translateY(8px) rotate(360deg) rotate(45deg);
+    }
+    .hamburguer.active .barra:nth-child(2){
+        opacity: 0;
+    }
+    .hamburguer.active .barra:last-child{
+        transform: translateY(-8px) rotate(-360deg) rotate(-45deg);
+    }
+}
+
+.item-menu{
+    padding: 12px 16px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex: 0 0 auto;
+    border-radius: 80px;
+    gap: 8px;
+    position: relative;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.3);
+    transition: 0.3s;
+    border: 1px solid rgb(9, 181, 249);
+    
+    
+}
+
+
+  
