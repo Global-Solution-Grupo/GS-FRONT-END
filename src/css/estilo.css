@@ -58,6 +58,7 @@ a:hover{
     width: 100%;
     min-height: 100vh;
     padding: 3rem;
+    padding-top: 3px;
     background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/home.jpg);
     background-repeat: no-repeat;
     background-size: cover; /*FAZ A IMAGEM ENCAIXAR NO FUNDO DO SITE*/
@@ -65,6 +66,8 @@ a:hover{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-position: center;
+    
 }
 .hero1{
     width: 100%;
@@ -210,5 +213,74 @@ display: none;
     
 }
 
-
+.hero2{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem;
+    background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/tecnologia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*FAZ A IMAGEM ENCAIXAR NO FUNDO DO SITE*/
+    color:var(--color-font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
   
+.hero2 p{
+    font-size: 20px;
+    margin-top: 100px;
+    border: 1px solid rgb(9, 181, 249);
+    border-radius: 80px;
+    background:rgba(255, 255, 255, 0.3) ;
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+}
+.hero3{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem;
+    background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/impactados.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*FAZ A IMAGEM ENCAIXAR NO FUNDO DO SITE*/
+    color:var(--color-font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+}
+
+.hero3 p{
+    font-size: 20px;
+    margin-top: 100px;
+    border: 1px solid rgb(9, 181, 249);
+    border-radius: 80px;
+    background:rgba(255, 255, 255, 0.3) ;
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+}
+.hero4{
+    width: 100%;
+    min-height: 100vh;
+    padding: 3rem;
+    background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/objetivos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; /*FAZ A IMAGEM ENCAIXAR NO FUNDO DO SITE*/
+    color:var(--color-font1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-position: center;
+    
+}
+.hero4 p{
+    font-size: 20px;
+    margin-top: 100px;
+    border: 1px solid rgb(9, 181, 249);
+    border-radius: 80px;
+    background:rgba(255, 255, 255, 0.3) ;
+    overflow: hidden;
+    padding: 30px;
+    text-align: center;
+}
