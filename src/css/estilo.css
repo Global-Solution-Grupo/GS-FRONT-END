@@ -58,7 +58,7 @@ a:hover{
     width: 100%;
     min-height: 100vh;
     padding: 3rem;
-    background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/home-semaforo.jpg);
+    background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/home.jpg);
     background-repeat: no-repeat;
     background-size: cover; /*FAZ A IMAGEM ENCAIXAR NO FUNDO DO SITE*/
     color:var(--color-font1);
