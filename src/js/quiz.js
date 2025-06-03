@@ -10,10 +10,16 @@ document.addEventListener('DOMContentLoaded',()=>{
 
     //DECLARANDO O ARRAY DE PERGUNTAS
     const questoes=[
-        "Qual é uma das principais causas de enchentes nas cidades? ",
-        "Qual é um desafio enfrentado pelas cidades durante enchentes?",
-        "O que o poder público pode fazer para combater enchentes?",
-        "O que fazer em caso de enchente iminente?",
+        "Quais são os principais fatores que contribuem para enchentes?",
+        "Como as enchentes afetam a vida urbana?",
+        "Quais são os impactos ambientais das enchentes?",
+        "Quais são os principais sinais de uma enchente iminente?",
+        "Como as enchentes podem afetar a infraestrutura de uma cidade?",
+        "Como as enchentes afetam a economia local?",
+        "Quais são os grupos mais vulneráveis durante enchentes?",
+        "Como as enchentes podem afetar a saúde pública?",
+        "Quais são os principais desafios enfrentados pelas autoridades durante enchentes?",
+        "Como as enchentes podem ser monitoradas e previstas?",    
     ]
     //DECLARANDOS AS VARIAVEIS
     let perguntas = 0;
@@ -37,7 +43,7 @@ document.addEventListener('DOMContentLoaded',()=>{
         questoes.forEach((questoes,index)=>{
             const listaItem =document.createElement('li');
             listaItem.innerHTML = `<strong>${questoes}</strong><br>
-            Sua Resposta: <span>${respostas[index]}</span>`
+            Sua Resposta: ${respostas[index]}`
             listaResultado.appendChild(listaItem);
         })
      }

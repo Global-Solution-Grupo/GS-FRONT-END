@@ -369,11 +369,13 @@ display: none;
     text-align: center;
     margin-bottom: 20px;
     color:blue;
+    font-size: x-large;
 }
 
 #container-perguntas h2{
     color:green;
     margin-bottom: 20px;
+    font-size:large;
 }
 #container-respostas{
     margin-bottom: 20px;
@@ -455,6 +457,7 @@ display: none;
 }
 
 footer{
+    font-size: medium;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -462,5 +465,6 @@ footer{
     margin: 10 px;
     text-align: center;
     padding: 40 px;
-    color: #333;
+    color: var(--color-font1);
+    background-color: var(--color-font4);
 }
