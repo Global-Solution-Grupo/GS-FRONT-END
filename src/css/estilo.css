@@ -453,3 +453,14 @@ display: none;
 #inicio-btn:hover {
     background-color: #1e7e34;
 }
+
+footer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 100 px;
+    margin: 10 px;
+    text-align: center;
+    padding: 40 px;
+    color: #333;
+}
