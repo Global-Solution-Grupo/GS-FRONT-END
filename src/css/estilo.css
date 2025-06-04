@@ -211,7 +211,7 @@ display: none;
     margin-top: 100px;
     border: 1px solid rgb(9, 181, 249);
     border-radius: 80px;
-    background:rgba(255, 255, 255, 0.3) ;
+    background: var(--color-font4) ;
     overflow: hidden;
     padding: 30px;
     text-align: center;
@@ -236,7 +236,7 @@ display: none;
     margin-top: 100px;
     border: 1px solid rgb(9, 181, 249);
     border-radius: 80px;
-    background:rgba(255, 255, 255, 0.3) ;
+    background: var(--color-font4) ;
     overflow: hidden;
     padding: 30px;
     text-align: center;
@@ -261,7 +261,7 @@ display: none;
     margin-top: 100px;
     border: 1px solid rgb(9, 181, 249);
     border-radius: 80px;
-    background:rgba(255, 255, 255, 0.3) ;
+    background:var(--color-font4) ;
     overflow: hidden;
     padding: 30px;
     text-align: center;
@@ -285,7 +285,7 @@ display: none;
     margin-top: 100px;
     border: 1px solid rgb(9, 181, 249);
     border-radius: 80px;
-    background:rgba(255, 255, 255, 0.3) ;
+    background: var(--color-font4) ;
     overflow: hidden;
     padding: 30px;
     text-align: center;
@@ -310,7 +310,7 @@ display: none;
     margin-top: 100px;
     border: 1px solid rgb(9, 181, 249);
     border-radius: 80px;
-    background:rgba(255, 255, 255, 0.3) ;
+    background: var(--color-font4) ;
     overflow: hidden;
     padding: 30px;
     text-align: center;
@@ -333,7 +333,7 @@ display: none;
     margin-top: 100px;
     border: 1px solid rgb(9, 181, 249);
     border-radius: 80px;
-    background:rgba(255, 255, 255, 0.3) ;
+    background: var(--color-font4);
     overflow: hidden;
     padding: 30px;
     text-align: center;
@@ -467,4 +467,11 @@ footer{
     padding: 40 px;
     color: var(--color-font1);
     background-color: var(--color-font4);
+}
+
+.hero7{
+    background-color: var(--color-font4);
+}
+.hero7 h1{
+    color: #fff;
 }
