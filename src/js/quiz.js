@@ -73,3 +73,7 @@ document.addEventListener('DOMContentLoaded',()=>{
      mostrarPergunta();
 
 })
+
+function trocar(cor) {
+    document.body.style.background = cor;
+  }
