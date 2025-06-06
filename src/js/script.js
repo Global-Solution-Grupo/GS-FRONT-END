@@ -52,12 +52,11 @@ let tempo = 5000;
 
 //CRIANDO A FUNÇÃO DO SLIDESHOW
 
-function slideShow(){
-    document.getElementById('image').src = imagens[i];
+function slideShow() {
+    const hero = document.querySelector('.hero');
+    hero.style.backgroundImage = `linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.3)), url(${imagens[i]})`;
     i++;
-    if(i == imagens.length){
-        i=0;
-    }
-    setTimeout("slideShow()",tempo)
+    if (i === imagens.length) i = 0;
+    setTimeout(slideShow, tempo);
 }
 slideShow();
