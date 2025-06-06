@@ -372,8 +372,8 @@ display: none;
 }
 
 #container-perguntas h2{
-    color:green;
-    margin-bottom: 20px;
+    color:var(--color-font4);
+    margin-bottom: 30px;
     font-size:large;
 }
 #container-respostas{
@@ -384,7 +384,7 @@ display: none;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 #proximo{
     background: rgb(0, 145, 255);
@@ -411,8 +411,9 @@ display: none;
 #container-resultado {
     margin-top: 20px;
     padding: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid #333;
     border-radius: 4px;
+    font-size: 12px;
 }
 
 #container-resultado h2 {
@@ -423,12 +424,13 @@ display: none;
 #lista-resultado {
     list-style: none;
     padding: 0;
+    font-weight: bolder;
 }
 
 #lista-resultado li {
     margin-bottom: 10px;
     padding: 8px 0;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #0056b3;
 }
 
 #lista-resultado li:last-child {

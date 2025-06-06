@@ -48,7 +48,7 @@ let imagens =[
 //DECLARANDO AS VARIAVEIS
 
 let i = 0;
-let tempo = 5000;
+let tempo = 3000;
 
 //CRIANDO A FUNÇÃO DO SLIDESHOW
 
