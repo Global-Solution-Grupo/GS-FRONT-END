@@ -60,7 +60,6 @@ a:hover{
     padding: 3rem;
     padding-top: 3px;
     background-repeat: no-repeat;
-    background-image: var(--gradient) /*FAZ COLORIR O FUNDO INTEIRO DO SITE*/,url(../assets/home.jpg);
     background-size: cover; /*FAZ A IMAGEM ENCAIXAR NO FUNDO DO SITE*/
     color:var(--color-font1);
     display: flex;
